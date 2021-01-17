@@ -1,0 +1,31 @@
+﻿<Window x:Class="calcul.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:calcul"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="31*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="208,48,0,0" TextChanged="tb_TextChanged" Name="tb"/>
+        <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="208,76,0,0" SelectionChanged="ComboBox_SelectionChanged" Name="cb">
+            <ComboBoxItem Content="Sin" HorizontalAlignment="Left" Width="118"/>
+            <ComboBoxItem Content="Cos" HorizontalAlignment="Left" Width="118"/>
+        </ComboBox>
+        <Button Content="=" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="208,103,0,0" Click="Button_Click"/>
+        <Label Content="Enter value" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="99,45,0,0"/>
+        <Label Content="Sin/Cos:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="158,76,0,0"/>
+        <Label Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="208,128,0,0" Name="lbl"/>
+        <TextBox Name="tbm" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="267" Margin="208,131,0,0" TextChanged="tbm_TextChanged"/>
+        <Button Content="Сlear" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="208,159,0,0" Name="btn2" Click="btn2_Click"/>
+        <ComboBox HorizontalAlignment="Left" Margin="355,76,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="ComboBox_SelectionChanged_1">
+            <ComboBoxItem Content="Русский" HorizontalAlignment="Left" Width="118.4"/>
+            <ComboBoxItem Content="English" HorizontalAlignment="Left" Width="118.4" Selected="ComboBoxItem_Selected"/>
+        </ComboBox>
+
+    </Grid>
+</Window>

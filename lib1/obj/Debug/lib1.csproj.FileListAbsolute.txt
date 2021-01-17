@@ -1,0 +1,6 @@
+C:\Users\honor\YandexDisk\main\vs\calcul\lib1\bin\Debug\lib1.dll
+C:\Users\honor\YandexDisk\main\vs\calcul\lib1\bin\Debug\lib1.pdb
+C:\Users\honor\YandexDisk\main\vs\calcul\lib1\obj\Debug\lib1.csprojAssemblyReference.cache
+C:\Users\honor\YandexDisk\main\vs\calcul\lib1\obj\Debug\lib1.csproj.CoreCompileInputs.cache
+C:\Users\honor\YandexDisk\main\vs\calcul\lib1\obj\Debug\lib1.dll
+C:\Users\honor\YandexDisk\main\vs\calcul\lib1\obj\Debug\lib1.pdb
